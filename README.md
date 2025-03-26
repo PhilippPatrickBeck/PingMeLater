@@ -129,3 +129,5 @@ And my Techstack from Chatgpt:
 ✅ **Secure, cloud-ready, and extendable**  
 
 🚀 Ready to automate life with Java! Anything you'd tweak?
+
+https://philipppatrickbeck.github.io/PingMeLater/personalMotivation.html
