@@ -7,11 +7,11 @@
 ```mermaid
 flowchart TD
     UI[Web Frontend (React/Next.js)] --> API[Java Backend (Spring Boot)]
-    API --> Py[Python Module (FastAPI, SymPy)]
-    Py --> Cpp[C++ Core (Parser, Optimizer)]
-    Cpp --> DB[PostgreSQL]
-    Py --> LLM[GPT / Local LLM]
-    API --> UI
+    API --> PY[Python Module (FastAPI, SymPy)]
+    PY --> CPP[C++ Core (Parser, Optimizer)]
+    CPP --> DB[PostgreSQL]
+    PY --> LLM[GPT/Local LLM]
+    LLM --> UI[Web Frontend]
 ```
 
 * * *
