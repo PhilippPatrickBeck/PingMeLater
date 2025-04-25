@@ -1,15 +1,18 @@
-SymbolMind – The Hybrid AI Math System
+# SymbolMind – The Hybrid AI Math System
 
-⚠️ Concept Only: This project is currently an idea/prototype and not yet implemented.
+> ⚠️ **Concept Only:** This project is currently an idea/prototype and not yet implemented.
+>
+> 🤖 *Imagine PingMeLater—but for symbolic math! Notifications on derivations and simplifications coming soon.*  
 
-🤖 Imagine PingMeLater—but for symbolic math! Notifications on derivations and simplifications coming soon.
-
-] --> API[Java Backend (Spring Boot)]
-API --> Py[Python Module (FastAPI, SymPy)]
-Py --> Cpp[C++ Core (Parser, Optimizer)]
-Cpp --> DB[PostgreSQL]
-Py --> LLM[GPT / Local LLM]
-API --> UI
+```mermaid
+flowchart TD
+    UI[Web Frontend (React/Next.js)] --> API[Java Backend (Spring Boot)]
+    API --> Py[Python Module (FastAPI, SymPy)]
+    Py --> Cpp[C++ Core (Parser, Optimizer)]
+    Cpp --> DB[PostgreSQL]
+    Py --> LLM[GPT / Local LLM]
+    API --> UI
+```
 
 * * *
 
@@ -65,3 +68,4 @@ This is a concept in progress. We'd love to hear your thoughts and suggestions:
 ### License
 
 Licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
