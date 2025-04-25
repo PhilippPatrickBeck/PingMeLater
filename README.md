@@ -69,3 +69,5 @@ This is a concept in progress. We'd love to hear your thoughts and suggestions:
 
 Licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+https://philipppatrickbeck.github.io/PingMeLater/personalMotivation.html
+
